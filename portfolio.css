@@ -1,0 +1,35 @@
+body{
+  background-image: url("bck.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* classes*/ 
+  .main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 39px;
+  row-gap:100px;  
+  justify-content: space-evenly;
+  height:600px;
+  margin: 30px 160px;
+  
+}  
+.cards{
+  border: 1px solid #5f5858;
+  background-color: #d3cdee;
+}
+li{
+  font-size: 16px;
+ 
+}
+h4{
+  padding-left: 10px;
+}
+.link{
+ padding:30px;
+  text-align: center;
+  
+}
